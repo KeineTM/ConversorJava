@@ -2,7 +2,8 @@
 
 Este es un proyecto simple que ejecuta diferentes conversores programados mediante lenguaje Java.
 
-Emplea diferentes objetos JOptionPanel para desplegar una interfaz sencilla que guía al usuario:
+Emplea diferentes objetos JOptionPanel para desplegar una interfaz sencilla que guía al usuario.
+
 Actualmente tiene dos módulos: Conversor de Divisas y Conversor de Temperatura.
 
 ![Image text](img/menu_principal.png)
@@ -27,3 +28,7 @@ Finalmente, se pregunta al usuario si desea permanecer en el módulo y repetirlo
 De seleccionar las opciones Cancelar, salta el mensaje de finalización:
 
 ![Image text](img/adios.PNG)
+
+Algo a destacar es que, al traterse de constantes (aún con las divisas), se crearon clases de tipo "enum" para manejarlas:
+
+![Image text](img/enum_class.PNG)
