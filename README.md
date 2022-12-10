@@ -1,18 +1,23 @@
-## Getting Started
+# ConversorJava
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este es un proyecto simple que ejecuta diferentes conversores programados mediante lenguaje Java.
 
-## Folder Structure
+Emplea diferentes objetos JOptionPanel para desplegar una interfaz sencilla que guía al usuario:
+Actualmente tiene dos módulos: Conversor de Divisas y Conversor de Temperatura.
+![Image text](img/menu-principal.png)
 
-The workspace contains two folders by default, where:
+Una vez elegido se solicita un valor que debe ser numérico:
+![Image text](img/entrada.PNG)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Después se despliega el menú desplegable para seleccionar la conversión deseada:
+![Image text](img/menu_divisas.png)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Y se muestra el resultado:
+![Image text](img/resultado_divisas.PNG)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+En caso de que se haya introducido una entrada no numérica se captura e indica el error:
+![Image text](img/error.PNG)
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Finalmente, se pregunta al usuario si desea permanecer en el módulo y repetirlo, o permanecer en el programa y repetirlo.
+De seleccionar las opciones Cancelar, salta el mensaje de finalización:
+![Image text](img/adios.PNG)
